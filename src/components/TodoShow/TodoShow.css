@@ -1,0 +1,34 @@
+.todo-show-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    cursor: pointer;
+    background-color: #F2F2F2;
+}
+
+.todo-show-text{
+    padding:  1.5rem;
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.todo-show-icons{
+    display: flex;
+}
+
+.text-line-through{
+    text-decoration: line-through;
+}
+
+@media (max-width: 600px) {
+    .todo-show-container{
+        margin-top: 1rem;
+    }
+
+    .todo-show-text{
+        padding:  1rem;
+    }
+}

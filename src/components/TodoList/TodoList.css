@@ -1,0 +1,9 @@
+.todo-list-container{
+    margin: 2rem 4rem;
+}
+
+@media (max-width: 600px) {
+    .todo-list-container{
+        margin: 0.5rem 1rem;
+    } 
+}

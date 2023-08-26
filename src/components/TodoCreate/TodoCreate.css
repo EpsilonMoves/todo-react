@@ -1,0 +1,13 @@
+.todo-create-container{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    margin: 2rem 4rem;
+}
+
+@media (max-width: 600px) {
+    .todo-create-container{
+        gap:0.5rem;
+        margin: 0.5rem 1rem;
+    } 
+}
